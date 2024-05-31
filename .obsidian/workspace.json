@@ -166,8 +166,8 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "smart-random-note:Open Random Note from Search": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "smart-random-note:Open Random Note from Search": false
     }
   },
   "active": "bdc0f0c5c4e5f0dd",
