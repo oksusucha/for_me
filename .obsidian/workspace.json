@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "83af2d809c52d6df",
+        "id": "fb7d9f431795402c",
         "type": "tabs",
         "children": [
           {
-            "id": "8ae40e4190f32bc1",
+            "id": "e245c0fbfa36dd5d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdc0f0c5c4e5f0dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca060e209c5b9af3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리팩토링/리팩토링?.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리팩토링/리팩토링?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리팩토링/리팩토링?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "리팩토링/리팩토링?.md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,16 +146,17 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-random-note:Open Random Note from Search": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "ca060e209c5b9af3",
+  "active": "e245c0fbfa36dd5d",
   "lastOpenFiles": [
-    "obsidian/README.md",
+    "README.md",
     "리팩토링/리팩토링?.md",
+    "obsidian/README.md",
     "리팩토링/Untitled",
     "리팩토링",
-    "README.md",
     "obsidian"
   ]
 }
