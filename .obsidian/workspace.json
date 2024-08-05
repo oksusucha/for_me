@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4138798c68625634",
+        "id": "b47eb86e2a0c32ed",
         "type": "tabs",
         "children": [
           {
-            "id": "c115b02be4484faa",
+            "id": "af3b1b58b9886940",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVA/JMM.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JMM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/JMM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JAVA/JMM.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,10 +150,10 @@
       "random-note:Open random note": false
     }
   },
-  "active": "c115b02be4484faa",
+  "active": "af3b1b58b9886940",
   "lastOpenFiles": [
-    "JAVA/Final Field Semantics.md",
     "JAVA/JMM.md",
+    "JAVA/Final Field Semantics.md",
     "Untitled.canvas",
     "JAVA/Untitled",
     "JAVA",
