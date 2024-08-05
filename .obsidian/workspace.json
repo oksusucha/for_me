@@ -158,11 +158,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c6aa10caa49b7b1a",
+  "active": "af3b1b58b9886940",
   "lastOpenFiles": [
+    "JAVA/JVMS/Chapter2_The_structure_of_the_Java_Virtual_Machine/2.5.3 Heap.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
+    "JAVA/JVMS/Chapter2_The_structure_of_the_Java_Virtual_Machine",
     "JAVA/JVMS",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
     "JAVA/Final Field Semantics.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model",
     "JAVA/JLS/17_Threads_and_Locks",
