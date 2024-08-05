@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JMM.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JMM.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/JMM.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JMM.md"
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md"
               }
             }
           },
@@ -158,12 +158,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "af3b1b58b9886940",
+  "active": "c6aa10caa49b7b1a",
   "lastOpenFiles": [
-    "JAVA/JMM.md",
+    "JAVA/JVMS",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
     "JAVA/Final Field Semantics.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model",
+    "JAVA/JLS/17_Threads_and_Locks",
+    "JAVA/JLS",
     "Untitled.canvas",
-    "JAVA/Untitled",
     "JAVA",
     "리팩토링/리팩토링?.md",
     "README.md",
