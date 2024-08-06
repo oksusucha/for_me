@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md"
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md"
               }
             }
           },
