@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md"
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md"
               }
             }
           },
@@ -160,13 +160,13 @@
   },
   "active": "af3b1b58b9886940",
   "lastOpenFiles": [
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
     "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
     "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics",
     "JAVA/JVMS/Chapter2_The_structure_of_the_Java_Virtual_Machine/2.5.3 Heap.md",
     "JAVA/JVMS/Chapter2_The_structure_of_the_Java_Virtual_Machine",
     "JAVA/JVMS",
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model",
     "JAVA/JLS/17_Threads_and_Locks",
     "JAVA/JLS",
