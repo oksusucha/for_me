@@ -7,7 +7,10 @@ This exception may be thrown by methods that have detected concurrent modificati
 
 For example, it is not generally permissible for one thread to modify a Collection while another thread is iterating over it. In general, the results of the iteration are undefined under these circumstances. Some Iterator implementations (including those of all the general purpose collection implementations provided by the JRE) may choose to throw this exception if this behavior is detected. Iterators that do this are known as _fail-fast_ iterators, as they fail quickly and cleanly, rather that risking arbitrary, non-deterministic behavior at an undetermined time in the future.
 
->예를 들어 일반적으로 한 스레드가 컬렉션을 수정하는 동안 다른 스레드가 컬렉션을 반복하는 것은 허용되지 않습니다. 일반적으로 이러한 상황에서는 반복 결과가 정의되지 않습니다. 일부 Iterator 구현(JRE에서 제공하는 모든 범용 컬렉션 구현 포함)은 이 동작이 감지되면 이 예외를 발생시키도록 선택할 수 있습니다. 이를 수행하는 반복자는 미래의 결정되지 않은 시간에 임의적이고 비결정적인 동작을 위험에 빠뜨리는 대신 신속하고 깔끔하게 실패하므로 빠른 실패 반복자로 알려져 있습니다.
+>예를 들어 일반적으로 한 스레드가 컬렉션을 수정하는 동안 다른 스레드가 컬렉션을 반복하는 것은 허용되지 않습니다. 
+>일반적으로 이러한 상황에서는 반복 결과가 정의되지 않습니다. 
+>일부 Iterator 구현(JRE에서 제공하는 모든 범용 컬렉션 구현 포함)은 이 동작이 감지되면 이 예외를 발생시키도록 선택할 수 있습니다. 
+>이를 수행하는 반복자는 미래의 결정되지 않은 시간에 임의적이고 비결정적인 동작을 위험에 빠뜨리는 대신 신속하고 깔끔하게 실패하므로 빠른 실패 반복자로 알려져 있습니다.
 
 Note that this exception does not always indicate that an object has been concurrently modified by a _different_ thread. If a single thread issues a sequence of method invocations that violates the contract of an object, the object may throw this exception. For example, if a thread modifies a collection directly while it is iterating over the collection with a fail-fast iterator, the iterator will throw this exception.
 
