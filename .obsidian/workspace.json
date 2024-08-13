@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b47eb86e2a0c32ed",
+        "id": "01d103c14bc590e0",
         "type": "tabs",
         "children": [
           {
-            "id": "af3b1b58b9886940",
+            "id": "17f1bcaea4273998",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,10 +150,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "af3b1b58b9886940",
+  "active": "c6aa10caa49b7b1a",
   "lastOpenFiles": [
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.9 Observable Behavior and Nonterminating Executions.md",
+    "§15.16.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.9 Observable Behavior and Nonterminating Executions.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.4 Synchronization Order.md",
     "JAVA/JLS/8_Classes/8.3_Field_Declarations/8.3.1_Field_Modifiers/8.3.1.4 volatile Fields.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
