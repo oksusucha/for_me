@@ -10,7 +10,7 @@ For example, it is not generally permissible for one thread to modify a Collecti
 >예를 들어 일반적으로 한 스레드가 컬렉션을 수정하는 동안 다른 스레드가 컬렉션을 반복하는 것은 허용되지 않습니다. 
 >일반적으로 이러한 상황에서는 반복 결과가 정의되지 않습니다. 
 >일부 Iterator 구현(JRE에서 제공하는 모든 범용 컬렉션 구현 포함)은 이 동작이 감지되면 이 예외를 발생시키도록 선택할 수 있습니다. 
->이를 수행하는 반복자는 미래의 결정되지 않은 시간에 임의적이고 비결정적인 동작을 위험에 빠뜨리는 대신 신속하고 깔끔하게 실패하므로 빠른 실패 반복자로 알려져 있습니다.
+>이를 수행하는 반복자는 미래의 결정되지 않은 시간에 임의적이고 비결정적인 동작을 위험에 빠뜨리는 대신 신속하고 깔끔하게 실패하므로 빠른 실패(fail-fast) 반복자로 알려져 있습니다.
 
 Note that this exception does not always indicate that an object has been concurrently modified by a _different_ thread. If a single thread issues a sequence of method invocations that violates the contract of an object, the object may throw this exception. For example, if a thread modifies a collection directly while it is iterating over the collection with a fail-fast iterator, the iterator will throw this exception.
 
@@ -29,3 +29,15 @@ Since:
 
 See Also:
 [Collection](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/Collection.html) [Iterator](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/Iterator.html) [Spliterator](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/Spliterator.html) [ListIterator](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/ListIterator.html) [Vector](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/Vector.html) [LinkedList](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/LinkedList.html) [HashSet](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/HashSet.html) [Hashtable](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/Hashtable.html) [TreeMap](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/TreeMap.html) [AbstractList](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/AbstractList.html) [Serialized Form](https://docs.oracle.com/en/java/javase/22/docs/api/serialized-form.html#java.util.ConcurrentModificationException)
+
+---
+자바에서 `ConcurrentModificationException`이라는 예외가 있어.
+이 예외는 보통, 하나의 스레드가 컬렉션을 수정하고 있을 때 다른 스레드가 그 컬렉션을 반복하려고 하면 발생해. 
+
+예를 들어, 컬렉션을 돌면서 동시에 그걸 수정하려고 하면 문제가 생길 수 있다는 거지.
+그래서 자바에서는 이런 상황을 감지하면 바로 예외를 던져서 프로그램이 엉뚱한 결과를 내지 않게 '빠르게 실패'하게 만들어.
+
+근데 꼭 다른 스레드 때문에 이 예외가 발생하는 건 아니야. 
+**같은 스레드 내**에서도 잘못된 순서로 메서드를 호출하면 이 예외가 발생할 수 있어. 예를 들어, 반복하는 도중에 그 컬렉션을 직접 수정하면 예외가 터진다고 보면 돼.
+
+그리고 중요한 건, 이 예외가 항상 발생하는 게 아니야. 동기화되지 않은 상태에서의 동시 수정은 완벽하게 감지할 수 없기 때문에, 자바에서는 최선을 다해 감지하려고 하지만 100% 보장은 못 해. 그래서 이 예외가 발생할 거라고 기대하고 프로그램을 짜면 안 되고, 이 예외는 단지 코드에 버그가 있다는 신호로만 받아들여야 해.

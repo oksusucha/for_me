@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.4 Synchronization Order.md",
+                "file": "JAVA/Exceptions/ConcurrentModificationException.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.4 Synchronization Order.md",
+                "file": "JAVA/Exceptions/ConcurrentModificationException.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.4 Synchronization Order.md",
+                "file": "JAVA/Exceptions/ConcurrentModificationException.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.4 Synchronization Order.md"
+                "file": "JAVA/Exceptions/ConcurrentModificationException.md"
               }
             }
           },
@@ -160,9 +160,9 @@
   },
   "active": "af3b1b58b9886940",
   "lastOpenFiles": [
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.2 Actions.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.4 Synchronization Order.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.9 Observable Behavior and Nonterminating Executions.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.2 Actions.md",
     "JAVA/Exceptions/ConcurrentModificationException.md",
     "JAVA/Exceptions",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
