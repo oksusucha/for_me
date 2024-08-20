@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md"
+                "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md"
               }
             }
           },
@@ -160,22 +160,23 @@
   },
   "active": "17f1bcaea4273998",
   "lastOpenFiles": [
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.9 Observable Behavior and Nonterminating Executions.md",
-    "§15.16.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.4 Synchronization Order.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5.1 Semantics of final Fields.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.9 Observable Behavior and Nonterminating Executions.md",
     "JAVA/JLS/8_Classes/8.3_Field_Declarations/8.3.1_Field_Modifiers/8.3.1.4 volatile Fields.md",
+    "JAVA/Exceptions/ConcurrentModificationException.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.2 Actions.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4 Memory Model.md",
+    "§15.16.md",
+    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.4 Synchronization Order.md",
     "JAVA/JLS/8_Classes/8.3_Field_Declarations/8.3.1_Field_Modifiers/Untitled",
     "JAVA/JLS/8_Classes/8.3_Field_Declarations/8.3.1_Field_Modifiers",
     "JAVA/JLS/8_Classes/8.3_Field_Declarations",
-    "JAVA/Exceptions/ConcurrentModificationException.md",
     "JAVA/JLS/8_Classes",
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.2 Actions.md",
     "JAVA/Exceptions",
-    "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.1 Shared Variables.md",
-    "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5.1 Semantics of final Fields.md",
-    "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics/17.5 final Field Semantics.md",
     "JAVA/JLS/17_Threads_and_Locks/17.5_final_Field_Semantics",
     "JAVA/JVMS/Chapter2_The_structure_of_the_Java_Virtual_Machine/2.5.3 Heap.md",
     "JAVA/JVMS/Chapter2_The_structure_of_the_Java_Virtual_Machine",
