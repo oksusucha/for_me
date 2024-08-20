@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1b75a2a014f2fe0e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,11 +165,10 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-random-note:Open Random Note from Search": false,
-      "random-note:Open random note": false,
-      "periodic-notes:Open today": false
+      "random-note:Open random note": false
     }
   },
-  "active": "17f1bcaea4273998",
+  "active": "1b75a2a014f2fe0e",
   "lastOpenFiles": [
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.9 Observable Behavior and Nonterminating Executions.md",
     "§15.16.md",
