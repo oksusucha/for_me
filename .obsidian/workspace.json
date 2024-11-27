@@ -16,10 +16,25 @@
                 "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "17.4.6 Executions"
+            }
+          },
+          {
+            "id": "d5e3bff7022e7cdb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 17.4.6 Executions"
             }
           },
           {
@@ -105,7 +128,9 @@
                 "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 17.4.6 Executions"
             }
           },
           {
@@ -116,7 +141,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,7 +153,9 @@
               "type": "outline",
               "state": {
                 "file": "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 17.4.6 Executions"
             }
           },
           {
@@ -134,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -154,10 +185,11 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "smart-random-note:Open Random Note from Search": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "17f1bcaea4273998",
+  "active": "d5e3bff7022e7cdb",
   "lastOpenFiles": [
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.5 Happens-before Order.md",
     "JAVA/JLS/17_Threads_and_Locks/17.4_Memory_Model/17.4.6 Executions.md",
